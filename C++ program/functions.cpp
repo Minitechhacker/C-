@@ -1,5 +1,5 @@
 #include <iostream>  
-using namespace std;  
+using namespace std;  //call by value
 void change(int data);  
 int main()  
 {  

@@ -1,15 +1,15 @@
 #include<iostream>
 using namespace std;
-template<class t>
-	void swap(t &a,t &b)
+template<class T>
+	void swap(T &a,T &b)
 	{
-		
+		T t;
 		t=a;
 		a=b;
 		b=t;
 	}
 	
-int  main()
+int main()
 {
 	int a,b;
 	a=52;

@@ -1,7 +1,8 @@
 #include<iostream>
 //#include<conio.h>
 using namespace std;
-class school {
+class school 
+{
 	private:
 		int a,b,c;
 	public:
@@ -10,8 +11,10 @@ class school {
 			cout<<"\n the two numbers:";
 			cin>>a>>b;
 			c=a+b;
+			
 		}
-		void display() {
+		void display() 
+		{
 			cout<<"your total value is :"<<c;
 		}
 

@@ -13,7 +13,7 @@ private:
 				b=y;
 			
 				d=a+b;
-				c=a-c;
+				c=a-d;
 			}
 			void display()
 			{

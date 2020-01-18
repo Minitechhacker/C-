@@ -10,10 +10,14 @@ static int add(int a, int b, int c)
         return a + b + c;      
     }      
 };     
-int main(void) {    
-    Cal C;                                                    //     class object declaration.   
-    cout<< C.add(10, 20)<<endl;     
-    cout<< C.add(12, 20, 23);     
+int main(void) 
+{    
+    Cal C;   
+	int n1,n2,n3;          
+	cout<< "what is your n1 and n2 and n3 values:";  
+	cin>>n1>>n2>>n3;                                     //     class object declaration.   
+    //cout<< C.add(n1, n2)<<endl;     
+    cout<< C.add(n1, n2, n3);     
    return 0;    
 }    
 

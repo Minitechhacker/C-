@@ -13,14 +13,14 @@ private:
 				b=y;
 			
 				d=a+b;
-				c=a-c;
+				c=a-d;
 			
 				
 			}
 			void display()
 			{
 				cout<<"\n your values:"<<d;
-		     	cout<<"\n your values:"<<c;
+		     	cout<<"\n your sub values:"<<c;
 			}
 		
 };
